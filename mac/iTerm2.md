@@ -119,6 +119,7 @@ plugins=(git zsh-autosuggestions)
 
 <h3 id="highlight">声明/命令高亮（感觉比较实用的功能）</h3> 
 - 先复制 zsh-syntax-highlighting 项目到指定目录，如果是自动安装可以直接复制下面的代码运行
+
 ```
 $ git clone https://github.com/zsh-users/zsh-syntax-highlighting ~/.oh-my-zsh/custom/plugins/zsh-syntax-highlighting
 ```
