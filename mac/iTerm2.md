@@ -100,6 +100,7 @@ $ vim ~/.zshrc
 
 <h3 id="fill">自动填充（感觉最实用的功能）</h3> 
 - 先复制 zsh-autosuggestions 项目，到指定目录
+
 ```
 $ git clone https://github.com/zsh-users/zsh-autosuggestions ~/.oh-my-zsh/custom/plugins/zsh-autosuggestions
 ```
