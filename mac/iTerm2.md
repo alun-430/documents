@@ -99,7 +99,7 @@ $ vim ~/.zshrc
 -   重启 iTerm2
 
 <h3 id="fill">自动填充（感觉最实用的功能）</h3> 
-- 先复制 zsh-autosuggestions 项目，到指定目录
+- 先复制 zsh-autosuggestions 项目到指定目录，如果是自动安装可以直接复制下面的代码运行
 
 ```
 $ git clone https://github.com/zsh-users/zsh-autosuggestions ~/.oh-my-zsh/custom/plugins/zsh-autosuggestions
@@ -110,27 +110,27 @@ $ git clone https://github.com/zsh-users/zsh-autosuggestions ~/.oh-my-zsh/custom
 ```
 $ vim ~/.zshrc
 
-# 找到 plugins 配置，增加 zsh-autosuggestions 插件
+# 找到 plugins 配置，这个 plugins 配置比较靠下，增加 zsh-autosuggestions 插件
 
-plugins=(git zsh-autosuggestions zsh-syntax-highlighting)
+plugins=(git zsh-autosuggestions)
 ```
 
 -   重启 iTerm2
 
 <h3 id="highlight">声明/命令高亮（感觉比较实用的功能）</h3> 
-- 使用 Homebrew 安装:
+- 先复制 zsh-syntax-highlighting 项目到指定目录，如果是自动安装可以直接复制下面的代码运行
 ```
-$ brew install zsh-syntax-highlighting
+$ git clone https://github.com/zsh-users/zsh-syntax-highlighting ~/.oh-my-zsh/custom/plugins/zsh-syntax-highlighting
 ```
 
--   安装成功之后，执行下面的命令
+-   编辑 zsh 文件，增加 zsh-syntax-highlighting 插件
 
 ```
 $ vim ~/.zshrc
 
-# vim 最后一行添加配置：
+# 找到 plugins 配置，这个 plugins 配置比较靠下，增加 zsh-syntax-highlighting 插件
 
-source /usr/local/share/zsh-syntax-highlighting/zsh-syntax-highlighting.zsh
+plugins=(git zsh-autosuggestions zsh-syntax-highlighting)
 ```
 
 -   重启 iTerm2
