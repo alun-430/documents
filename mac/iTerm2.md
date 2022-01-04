@@ -75,13 +75,14 @@ chsh -s /bin/bash
 ```
 
 ###### 编辑 .zshrc 文件，并将主题修改为 ZSH_THEME="agnoster"
+[zsh 主题列表](https://github.com/robbyrussell/oh-my-zsh/wiki/themes)
 
 ```
 $ vim ~/.zshrc
 
 # 输入i进入编辑模式，将 ZSH_THEME="" 编辑为 ZSH_THEME="agnoster"
 
-# agnoster 是比较常用的 zsh 主题之一，你可以挑选你喜欢的主题，[zsh 更多主题列表](https://github.com/robbyrussell/oh-my-zsh/wiki/themes)
+# agnoster 是比较常用的 zsh 主题之一，你可以从上面的 zsh 主题列表中挑选你喜欢的主题
 
 # 接下来会到一个页面，点击i 进入修改状态, 修改完再按 ESC 退出修改, 按住 shift 和 : 键跳到最后一行, 输入 wq 退出 vim（如果没有跳转别的页面, 就不用操作这一步）
 
