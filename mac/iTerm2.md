@@ -33,7 +33,7 @@
 #### [15.常用快捷指令](#shortcut-instruct)
 
 <h3 id="background">背景</h3> 
-Mac默认终端是Terminal，不是特别好用
+Mac 默认终端是 Terminal，不是特别好用
 
 <h3 id="install">下载安装</h3> 
 ##### 网址（下载可能很慢）：https://www.iterm2.com/
@@ -41,10 +41,10 @@ Mac默认终端是Terminal，不是特别好用
 ##### 使用 Homebrew 安装：
 
 ```
-$ brew cask install iterm2
+$ brew install iterm2
 ```
 
-<h3 id="onmyzsh">配置oh-my-zsh （必配）</h3>
+<h3 id="onmyzsh">配置 oh-my-zsh （必配）</h3>
 
 ###### zsh 简介：
 
